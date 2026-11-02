@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "noxisclient",
+  "version": "${version}",
+  "name": "Noxis",
+  "description": "Noxis client",
+  "authors": [
+    "YangPai"
+  ],
+  "accessWidener": "alien.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "noxisclient.Vitality"
+    ],
+    "client": [
+      "noxisclient.NoxisClientInit"
+    ]
+  },
+  "mixins": [
+    "noxisclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3-natives-windows.jar"
+    },
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3.jar"
+    },
+    {
+      "file": "META-INF/jars/mixinextras-fabric-0.4.1.jar"
+    },
+    {
+      "file": "META-INF/jars/satin-2.0.0.jar"
+    },
+    {
+      "file": "META-INF/jars/skija-shared-0.93.6.jar"
+    },
+    {
+      "file": "META-INF/jars/skija-windows-0.93.6.jar"
+    }
+  ]
+}

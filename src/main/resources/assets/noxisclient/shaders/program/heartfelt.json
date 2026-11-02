@@ -1,0 +1,52 @@
+{
+  "vertex": "sobel",
+  "fragment": "noxisclient:heartfelt",
+  "attributes": [
+    "Position"
+  ],
+  "samplers": [],
+  "uniforms": [
+    {
+      "name": "ProjMat",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ]
+    },
+    {
+      "name": "InSize",
+      "type": "float",
+      "count": 2,
+      "values": [ 1.0, 1.0 ]
+    },
+    {
+      "name": "OutSize",
+      "type": "float",
+      "count": 2,
+      "values": [ 1.0, 1.0 ]
+    },
+    {
+      "name": "u_Resolution",
+      "type": "float",
+      "count": 2,
+      "values": [ 1920.0, 1080.0 ]
+    },
+    {
+      "name": "u_Time",
+      "type": "float",
+      "count": 1,
+      "values": [ 0.0 ]
+    },
+    {
+      "name": "u_Opacity",
+      "type": "float",
+      "count": 1,
+      "values": [ 1.0 ]
+    },
+    {
+      "name": "u_Mouse",
+      "type": "float",
+      "count": 4,
+      "values": [ 0.0, 0.0, 0.0, 0.0 ]
+    }
+  ]
+}

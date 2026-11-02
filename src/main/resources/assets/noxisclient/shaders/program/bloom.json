@@ -1,0 +1,68 @@
+{
+  "vertex": "sobel",
+  "fragment": "noxisclient:bloom",
+  "attributes": [
+    "Position"
+  ],
+  "samplers": [
+    {
+      "name": "DiffuseSampler"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "ProjMat",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ]
+    },
+    {
+      "name": "InSize",
+      "type": "float",
+      "count": 2,
+      "values": [ 1.0, 1.0 ]
+    },
+    {
+      "name": "OutSize",
+      "type": "float",
+      "count": 2,
+      "values": [ 1.0, 1.0 ]
+    },
+    {
+      "name": "Width",
+      "type": "int",
+      "count": 1,
+      "values": [ 1 ]
+    },
+    {
+      "name": "FastLines",
+      "type": "int",
+      "count": 1,
+      "values": [ 0 ]
+    },
+    {
+      "name": "GlowMultiplier",
+      "type": "float",
+      "count": 1,
+      "values": [ 1.0 ]
+    },
+    {
+      "name": "GlowQuality",
+      "type": "int",
+      "count": 1,
+      "values": [ 1 ]
+    },
+    {
+      "name": "FillColor",
+      "type": "float",
+      "count": 4,
+      "values": [ 0.741, 0.600, 1.0, 0.471 ]
+    },
+    {
+      "name": "OutlineColor",
+      "type": "float",
+      "count": 4,
+      "values": [ 0.741, 0.600, 1.0, 1.0 ]
+    }
+  ]
+}

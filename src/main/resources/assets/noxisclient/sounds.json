@@ -1,0 +1,343 @@
+{
+  "gui_click": {
+    "sounds": [
+      {
+        "name": "shoreline:gui_click",
+        "stream": false
+      }
+    ]
+  },
+
+  "twitter": {
+    "sounds": [
+      {
+        "name": "shoreline:twitter",
+        "stream": false
+      }
+    ]
+  },
+
+  "ios": {
+    "sounds": [
+      {
+        "name": "shoreline:ios",
+        "stream": false
+      }
+    ]
+  },
+
+  "discord": {
+    "sounds": [
+      {
+        "name": "shoreline:discord",
+        "stream": false
+      }
+    ]
+  },
+
+  "steam": {
+    "sounds": [
+      {
+        "name": "shoreline:steam",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.kaban": {
+    "sounds": [
+      {
+        "name": "noxisclient:discord",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.neverlose": {
+    "sounds": [
+      {
+        "name": "noxisclient:ios",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.css": {
+    "sounds": [
+      {
+        "name": "noxisclient:gui_click",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.cod": {
+    "sounds": [
+      {
+        "name": "noxisclient:twitter",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.quake": {
+    "sounds": [
+      {
+        "name": "noxisclient:steam",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.toolbox": {
+    "sounds": [
+      {
+        "name": "noxisclient:gui_click",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.warning": {
+    "sounds": [
+      {
+        "name": "noxisclient:ios",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.steam": {
+    "sounds": [
+      {
+        "name": "noxisclient:steam",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.whatsapp": {
+    "sounds": [
+      {
+        "name": "noxisclient:discord",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.vk": {
+    "sounds": [
+      {
+        "name": "noxisclient:twitter",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.icq": {
+    "sounds": [
+      {
+        "name": "noxisclient:ios",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.stalker": {
+    "sounds": [
+      {
+        "name": "noxisclient:steam",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.hover": {
+    "sounds": [
+      {
+        "name": "noxisclient:gui_click",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.click": {
+    "sounds": [
+      {
+        "name": "noxisclient:gui_click",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.rclick": {
+    "sounds": [
+      {
+        "name": "noxisclient:gui_click",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.bodysplat": {
+    "sounds": [
+      {
+        "name": "noxisclient:discord",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.dominating": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/dominating",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.doublekill": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/doublekill",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.godlike": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/godlike",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.headhunter": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/headhunter",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.humiliation": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/humiliation",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.impressive": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/impressive",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.killingspree": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/killingspree",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.ludicrouskill": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/ludicrouskill",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.megakill": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/megakill",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.monsterkill": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/monsterkill",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.multikill": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/multikill",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.perfect": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/perfect",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.rampage": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/rampage",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.triplekill": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/triplekill",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.ultrakill": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/ultrakill",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.unstoppable": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/unstoppable",
+        "stream": false
+      }
+    ]
+  },
+
+  "mio.wickedsick": {
+    "sounds": [
+      {
+        "name": "noxisclient:mio/wickedsick",
+        "stream": false
+      }
+    ]
+  }
+}

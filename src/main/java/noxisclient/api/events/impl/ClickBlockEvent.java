@@ -1,0 +1,29 @@
+package noxisclient.api.events.impl;
+
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import noxisclient.api.events.Event;
+
+public class ClickBlockEvent extends Event {
+   private BlockPos pos;
+   private Direction direction;
+   private static final ClickBlockEvent INSTANCE = new ClickBlockEvent();
+
+   private ClickBlockEvent() {
+   }
+
+   public Direction getDirection() {
+      return this.direction;
+   }
+
+   public BlockPos getPos() {
+      return this.pos;
+   }
+
+   public static ClickBlockEvent get(BlockPos pos, Direction direction) {
+      INSTANCE.pos = pos;
+      INSTANCE.direction = direction;
+      INSTANCE.setCancelled(false);
+      return INSTANCE;
+   }
+}

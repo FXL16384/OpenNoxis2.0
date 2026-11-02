@@ -1,0 +1,31 @@
+{
+  "targets": [
+    "bufIn",
+    "swap",
+    "bufOut"
+  ],
+  "passes": [
+    {
+      "name": "noxisclient:blur",
+      "intarget": "bufIn",
+      "outtarget": "swap",
+      "uniforms": [
+        {
+          "name": "direction",
+          "values": [ 1.0, 0.0 ]
+        }
+      ]
+    },
+    {
+      "name": "noxisclient:blur",
+      "intarget": "swap",
+      "outtarget": "bufOut",
+      "uniforms": [
+        {
+          "name": "direction",
+          "values": [ 0.0, 1.0 ]
+        }
+      ]
+    }
+  ]
+}

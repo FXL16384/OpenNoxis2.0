@@ -1,0 +1,31 @@
+{
+  "targets": [
+    "bufIn",
+    "swap",
+    "bufOut"
+  ],
+  "passes": [
+    {
+      "name": "noxisclient:title_image",
+      "intarget": "bufIn",
+      "outtarget": "swap",
+      "use_linear_filter": true,
+      "auxtargets": [
+        {
+          "name": "TitleImage",
+          "id": "noxisclient:title_image",
+          "width": 2560,
+          "height": 1208,
+          "bilinear": true
+        }
+      ],
+      "uniforms": []
+    },
+    {
+      "name": "blit",
+      "intarget": "swap",
+      "outtarget": "bufOut",
+      "uniforms": []
+    }
+  ]
+}
